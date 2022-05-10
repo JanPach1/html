@@ -1,0 +1,51 @@
+body{
+
+    font-family: 'Didact Gothic', sans-serif;
+      overflow: auto;
+      font-size: 20px;
+      margin:0;
+      padding: 0;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #ffffff; 
+  
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: #707070;
+      border: 3px solid rgba(0,0,0,0.3);
+    } 
+  
+    #text
+    {
+      text-align: left;
+      width: 70%;
+      float: left; 
+    }
+  
+    #photos
+    {
+  
+      margin-right: 37px;
+      float: left;
+      justify-content: center;
+    }
+  
+    .zxc
+    {
+      margin-top: 20px;
+    }  
+
+    .empspc
+    {
+        height: 30px;
+    }

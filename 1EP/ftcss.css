@@ -1,0 +1,52 @@
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+#content
+{
+    float: none ;
+    text-align: center;
+}
+
+.item
+{
+    margin:10px;
+}
+
+#title
+{
+    font-weight: 1000;
+    color: #ed1c24;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+#subtitle
+{
+    font-weight: 1000;
+    color: #ed1c24;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #707070;
+    border: 3px solid rgba(0,0,0,0.3);
+  } 
